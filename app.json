@@ -4,7 +4,7 @@
     "slug": "playoApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "https://playo-website.gumlet.io/playo-website-v2/logos-icons/new-logo-playo.png?q=50",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,21 +13,21 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "https://playo-website.gumlet.io/playo-website-v2/logos-icons/new-logo-playo.png?q=50",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "https://playo-website.gumlet.io/playo-website-v2/logos-icons/new-logo-playo.png?q=50"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "https://playo-website.gumlet.io/playo-website-v2/logos-icons/new-logo-playo.png?q=50",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
